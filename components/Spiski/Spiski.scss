@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.selh2{
+    display: flex;
+    flex:3 1 auto;
+    align-items: center;
+    height: 40px;
+    
+}
+.selector{
+    width: 200px;
+    padding: 50px;
+    margin-left: 10px;
+    
+
+    
+}
+.spisok{
+    padding-left: 1px;
+}
+.squads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    
+}
+    
+    .title1{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+
+    }
+    .hints{
+        font-weight: bold;
+        background-color: orange;
+    }
+
