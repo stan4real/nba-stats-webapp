@@ -1,0 +1,85 @@
+.sidebar{
+    background-color: white;
+    flex: 1;
+    border-right: 0.5px solid gray;
+    min-height: 100vh;
+    .top{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: larger;
+
+
+        .logo{
+            font-size: 20;
+            font-weight: bolder;
+            color: black;
+        }
+        .icon-logo{
+            color: orange;
+            width: 25px;
+        }
+        
+    }
+hr{
+    height: 0px;
+    border: 0.5px solid gray;
+}
+
+    .center{
+        padding-left: 0px;
+
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0px ;
+        }
+        li{
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            height: 110px;
+            cursor: pointer;
+
+            &:hover{
+                background-color: orange;
+            }
+            .icon{
+                font-size: 25px
+            }
+            span{
+                font-size: 15px;
+                font-weight: 600;
+                margin-left: 10px;
+                color: rgb(34, 33, 33);
+            }
+        }
+    }
+    .bottom{
+        display: flex;
+        margin: 10px;
+        align-items: center;
+            .colorOption{
+                width: 20px;
+                height: 20px;
+                border-radius: 5px;
+                border: 1px solid black;
+                cursor: pointer;
+                margin: 6px;
+
+                &:nth-child(1){
+                    background-color: whitesmoke;
+                }
+                
+                &:nth-child(2){
+                    background-color: #333;
+                }
+                
+                &:nth-child(3){
+                    background-color: salmon;
+                }
+            }
+        }
+}
