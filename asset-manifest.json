@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nba-stats-webapp/static/css/main.34bdf196.css",
+    "main.js": "/nba-stats-webapp/static/js/main.31a84111.js",
+    "index.html": "/nba-stats-webapp/index.html",
+    "main.34bdf196.css.map": "/nba-stats-webapp/static/css/main.34bdf196.css.map",
+    "main.31a84111.js.map": "/nba-stats-webapp/static/js/main.31a84111.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34bdf196.css",
+    "static/js/main.31a84111.js"
+  ]
+}
